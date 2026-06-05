@@ -11,3 +11,8 @@ document.getElementById('rol-usuari').textContent = 'Rol: ' + rol.charAt(0).toUp
 if (rol === 'alumne') {   
     document.querySelector('.targetes').innerHTML = '<p> No tens accés a cap aplicació.</p>';
 }
+
+function tancarSessio() {
+    localStorage.clear();
+    window.location.href = 'index.html';
+}
