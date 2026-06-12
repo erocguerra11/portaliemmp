@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iEduca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="pagina-dashboard">
+
+    <header>
+        <img src="logo.jpg" alt="Logo">
+        <h1>Portal IEMMP</h1>
+        <div class="usuari-info">
+            <span id="nom-usuari"></span>
+            <span id="rol-usuari"></span>
+        </div>
+        <button class="btn-logout" onclick="tancarSessio()">Tancar Sessió</button>
+    </header>
+
+    <div class="breadcrumb">
+        <a href="dashboard.html">← Tornar a l'inici</a>
+    </div>
+
+    <main>
+        <div class="seccio">
+            <div class="seccio-titol">
+                <h2>ieduca</h2>
+                <p>Plataform de gestió escolar del centre</p>
+            </div>
+
+            <div class="app-container">
+                <div class="app-descricpio">
+                    <h3>Què és iEduca?</h3>
+                    <p>iEduca és la plataforma de gestió escolar del centre. Permet gestionar l'alumnat, les faltes d'assistència, les notes i la comunicació amb les famílies.</p>
+                    <h3>Per a què el fem servir?</h3>
+                    <ul>
+                        <li>Registrar faltes d'assistència dels alumnes</li>
+                        <li>Gestionar notes i avaluacions</li>
+                        <li>Comunicar-se amb les famílies</li>
+                        <li>Consultar dades de l'alumnat</li>
+                    </ul>
+
+                    <div class="app-botons">
+                        <a href="https://ieduca.com" target="_blank" class="btn-app">
+                            🌐 Obrir iEduca
+                        </a>
+                        <a href="manuals/manual_educa.pdf" target="_blank" class="btn-manual">
+                            📄 Descarregar manual
+                        </a> 
+                </div>
+            </div>
+
+            <div class="app-image">
+                <img src="manuals/ieduca.png" alt="iEduca">
+            </div>
+        </div>
+    </div>
+
+    </main>
+
+     <footer>
+        <div class="footer-top">
+            <div class="footer-segueix">
+                <h3>Segueix-nos!</h3>
+                <div class="footer-icones">
+                    <a href="http://youtube.com/@iemiquelmartiipol" target="_blank">▶️</a>
+                    <a href="http://instagram.com/@iemiquelmartiipol" target="_blank">📷</a>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <img src="logo.jpg" alt="Logo">
+            </div>
+            <div class="footer-info">
+                <strong>Institut Escola Miquel Martí i Pol</strong>
+                <p>c. Can Roure, 2-10</p>
+                <p>08186 Lliçà d'Amunt</p>
+                <strong>93 860 75 05</strong>
+                <div class="footer-links">
+                    <a href="https://maps.app.goo.gl/z2esQPxYFM7GqbhFA" target="_blank">mapa</a> | 
+                    <a href="https://agora.xtec.cat/iemiquelmartipol/lescola/on-som/" target="_blank">contacte</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <a href="https://xtec.gencat.cat/ca/avis-legal/" target="_blank">Avís legal</a> | 
+            <a href="https://agora.xtec.cat/nodes/" target="_blank">Sobre el web</a> | 
+            © 2026 Generalitat de Catalunya | Fet amb Visual Studio Code
+        </div>
+    </footer>
+
+    <script src="drive.js"></script>
+
+</body>
+</html>
